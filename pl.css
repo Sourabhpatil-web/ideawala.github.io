@@ -1,0 +1,53 @@
+
+*
+{
+	
+	margin:0px;
+	padding:0px;
+}
+
+#navigation ul
+{
+	list-style:none;
+	background-color:yellow;
+	width:90%;
+	
+}
+
+#navigation ul li
+{
+ background-color:red;
+	margin:2px;
+	width:120px;
+	height:35px;
+	text-align:center;
+	line-height:35px;
+	float:left;
+	cursor:pointer;
+	border:1px solid green;
+	border-radius:5px;
+	
+}
+#navigation ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+#full
+{
+	background-image:url("hello.jpg");
+	background-repeat: no-repeat;
+	height:50%;
+	
+}
+
+#navigation ul li:hover
+{
+	background-color:aqua;
+}
+
+#navigation ul li a:hover
+{
+	
+	color:black;
+}
